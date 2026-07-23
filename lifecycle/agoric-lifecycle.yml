@@ -1,0 +1,22 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/Agoric/agoric-sdk/releases
+versioning:
+  scheme: >-
+    Network upgrades are governance-coordinated and named agoric-upgrade-N;
+    npm libraries in the agoric-sdk monorepo are versioned independently
+    (semver). No dated REST API version train (Agoric exposes no REST API).
+  current: agoric-upgrade-23
+  docs: https://docs.agoric.com/guides/coreeval/
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: >-
+    Breaking chain changes are shipped through on-chain governance
+    (coreEval / chain-upgrade proposals) rather than an HTTP API deprecation
+    policy with Sunset/Deprecation headers. No RFC 8594 header support applies.
+status_page: https://status.agoric.com
+sla:
+  url: null
+  uptime_target: null
+deprecated_operations: []

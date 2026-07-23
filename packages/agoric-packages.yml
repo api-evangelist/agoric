@@ -1,0 +1,72 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.npmjs.com/org/agoric
+notes: >-
+  First-party client and smart-contract libraries published to npm under the
+  @agoric scope from the Agoric/agoric-sdk monorepo. Agoric is a
+  JavaScript-only platform; there are no first-party PyPI, Maven, NuGet,
+  RubyGems, or crates.io packages.
+packages:
+- language: javascript
+  registry: npm
+  name: agoric
+  version: 0.22.0
+  url: https://www.npmjs.com/package/agoric
+  install: npm install -g agoric
+  description: The Agoric CLI to manage the JavaScript smart contract platform.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@agoric/client-utils"
+  version: 0.2.0
+  url: https://www.npmjs.com/package/@agoric/client-utils
+  install: npm install @agoric/client-utils
+  description: >-
+    Utilities for building Agoric clients; abstracts RPC-node calls into a
+    CQRS interface (commands via the on-chain Smart Wallet, queries via
+    vstorage).
+  official: true
+- language: javascript
+  registry: npm
+  name: "@agoric/zoe"
+  version: 0.27.0
+  url: https://www.npmjs.com/package/@agoric/zoe
+  install: npm install @agoric/zoe
+  description: "Zoe: the smart-contract framework for offer enforcement / offer safety."
+  official: true
+- language: javascript
+  registry: npm
+  name: "@agoric/ertp"
+  version: 0.17.0
+  url: https://www.npmjs.com/package/@agoric/ertp
+  install: npm install @agoric/ertp
+  description: >-
+    Electronic Rights Transfer Protocol (ERTP): a framework for issuing and
+    exchanging digital assets and electronic rights.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@agoric/orchestration"
+  version: 0.2.0
+  url: https://www.npmjs.com/package/@agoric/orchestration
+  install: npm install @agoric/orchestration
+  description: Chain abstraction for Agoric's cross-chain orchestration clients.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@agoric/notifier"
+  version: 0.7.0
+  url: https://www.npmjs.com/package/@agoric/notifier
+  install: npm install @agoric/notifier
+  description: >-
+    Notifier: lets services update clients about state changes using a stream
+    of promises.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@agoric/cosmic-swingset"
+  version: 0.42.0
+  url: https://www.npmjs.com/package/@agoric/cosmic-swingset
+  install: npm install @agoric/cosmic-swingset
+  description: Agoric's Cosmos blockchain integration (the SwingSet <-> Cosmos bridge).
+  official: true

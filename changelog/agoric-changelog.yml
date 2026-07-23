@@ -1,0 +1,49 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/Agoric/agoric-sdk/releases
+scheme: >-
+  Chain upgrades are named agoric-upgrade-N (governance-coordinated network
+  upgrades); product/app releases (e.g. Ymax) carry their own semantic-style
+  tags. Per-package npm libraries are versioned independently in the
+  agoric-sdk monorepo.
+current_version: agoric-upgrade-23
+changelog_file: https://github.com/Agoric/agoric-sdk/blob/master/CHANGELOG.md
+entries:
+- version: agoric-upgrade-23
+  date: '2026-07-16'
+  type: chain-upgrade
+  highlights: >-
+    Upgrades cosmos-sdk to v0.53 with supporting changes, plus additional
+    enhancements and bug fixes.
+- version: ymax-v0.3.2607-beta3
+  date: '2026-07-15'
+  type: product-beta
+  highlights: "Ymax beta: 'Open with grant'."
+- version: ymax-v0.3.2607-beta2
+  date: '2026-07-08'
+  type: product-beta
+  highlights: Ymax v0.3.2607-beta2.
+- version: ymax-v0.3.2607-beta1
+  date: '2026-07-01'
+  type: product-beta
+  highlights: >-
+    Ymax v0.3.2607-beta1: open with auto-rebalance, update Morpho instruments.
+- version: agoric-upgrade-22c-beta.1
+  date: '2026-01-14'
+  type: chain-upgrade
+  highlights: agoric-upgrade-22c beta.
+- version: agoric-upgrade-22b
+  date: '2025-10-20'
+  type: chain-upgrade
+  highlights: agoric-upgrade-22b network upgrade.
+- version: agoric-upgrade-22a
+  date: '2025-10-14'
+  type: chain-upgrade
+  highlights: agoric-upgrade-22a network upgrade.
+- version: agoric-upgrade-22
+  date: '2025-09-17'
+  type: chain-upgrade
+  highlights: >-
+    agoric-upgrade-22 network upgrade. Notable earlier release: the
+    Orchestration API went live on mainnet, enabling long-lived cross-chain
+    smart contracts.

@@ -1,0 +1,61 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.agoric.com/guides/agoric-cli/
+notes: >-
+  Agoric ships two first-party command-line tools: the `agoric` CLI (npm
+  package `agoric`) for building, running, and deploying dapps, and `agd`, the
+  Agoric Cosmos application daemon (analogous to gaiad/simd) for chain queries
+  and transactions.
+clis:
+- name: agoric
+  binary: agoric
+  package: agoric
+  install:
+  - npm install -g agoric
+  docs: https://docs.agoric.com/guides/agoric-cli/
+  commands:
+  - name: init
+    summary: Create a new dapp directory from a template.
+  - name: install
+    summary: Install dapp dependencies.
+  - name: start
+    summary: Start an Agoric VM on which contracts can run (supports local-chain).
+  - name: deploy
+    summary: Run one or more deploy scripts against the local Agoric VM.
+  - name: run
+    summary: Run a script with user privileges and Agoric endowments.
+  - name: publish
+    summary: Publish a bundle to a Cosmos chain.
+  - name: follow
+    summary: Follow an Agoric Casting leader (vstorage stream).
+  - name: wallet
+    summary: Smart Wallet commands.
+  - name: open
+    summary: Launch the Agoric UI.
+  - name: set-defaults
+    summary: Update Cosmos configuration files.
+  - name: cosmos
+    summary: Client for an Agoric Cosmos chain.
+  - name: ibc-setup
+    summary: Set up Inter-Blockchain Communication (IBC).
+  - name: ibc-relayer
+    summary: Run an Inter-Blockchain Communication relayer.
+  - name: help
+    summary: Display help for a command.
+- name: agd
+  binary: agd
+  summary: >-
+    The Agoric Cosmos App daemon (analogous to simd / gaiad); most simd query
+    and tx subcommands work the same way.
+  docs: https://docs.agoric.com/guides/agoric-cli/agd-query-tx
+  commands:
+  - name: keys
+    summary: Manage the application's keys.
+  - name: query
+    summary: Querying subcommands (chain state, vstorage, balances).
+  - name: tx
+    summary: Transaction subcommands.
+  - name: status
+    summary: Query a remote node for status.
+  - name: version
+    summary: Print the application binary version information.

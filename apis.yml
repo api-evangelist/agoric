@@ -1,8 +1,18 @@
 aid: agoric
 name: Agoric
-description: 'Agoric is a company surfaced as a portfolio company of polychain and added to the API Evangelist
-  network as a stub for enrichment. Sector: smart-contracts. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Agoric is a Cosmos-based Layer 1 blockchain that lets developers build secure
+  cross-chain smart contracts in Hardened JavaScript (SES). Its Orchestration
+  API abstracts multiple chains so a single long-lived contract can manage
+  assets, accounts, and services across the multi-chain universe. The platform
+  is built around Zoe (a smart-contract framework that enforces offer safety),
+  ERTP (the Electronic Rights Transfer Protocol for issuing and transferring
+  digital assets), and SwingSet (its deterministic async VM). Developers ship
+  dapps with the `agoric` CLI and `agd` Cosmos daemon, query chain state through
+  vstorage, and integrate with the network over Cosmos RPC and IBC. The
+  developer surface is delivered as first-party `@agoric/*` npm packages rather
+  than a REST API. Originally surfaced as a Polychain portfolio company, this
+  profile has been enriched from Agoric's public developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/agoric/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,30 @@ x-backed-by:
 - polychain
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://agoric.com/opengraph-image.png
 tags:
 - Company
 - Smart Contracts
+- Blockchain
+- JavaScript
+- Cosmos
+- Orchestration
+- Web3
+- Cross-Chain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,38 @@ maintainers:
 common:
 - type: Website
   url: https://agoric.com
+- type: DeveloperPortal
+  url: https://docs.agoric.com
+- type: Documentation
+  url: https://docs.agoric.com
+- type: APIReference
+  url: https://agoric-sdk.pages.dev/
+- type: GettingStarted
+  url: https://docs.agoric.com/guides/getting-started/
+- type: Support
+  url: https://agoric.com/discord
+- type: Blog
+  url: https://agoric.com/blog
+- type: GitHubOrganization
+  url: https://github.com/Agoric
+- type: PrivacyPolicy
+  url: https://agoric.com/privacy
+- type: StatusPage
+  url: https://status.agoric.com
+- type: Packages
+  url: packages/agoric-packages.yml
+- type: SDKs
+  url: packages/agoric-packages.yml
+- type: CLI
+  url: cli/agoric-cli.yml
+- type: ChangeLog
+  url: changelog/agoric-changelog.yml
+- type: Lifecycle
+  url: lifecycle/agoric-lifecycle.yml
+- type: DomainSecurity
+  url: security/agoric-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
